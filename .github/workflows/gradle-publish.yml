@@ -5,9 +5,9 @@ name: Java CI with Gradle1
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master,Rahul-T-Sudo-Patch-1 ]
   pull_request:
-    branches: [ master ]
+    branches: [ master,Rahul-T-Sudo-Patch-1 ]
 
 jobs:
   build-java:
